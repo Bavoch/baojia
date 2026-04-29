@@ -1,189 +1,142 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>互动式警示教育网站 · 报价方案</title>
-  <link rel="stylesheet"="./styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>报价方案</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="header">
-    <h1>互动式警示教育网站</h1>
-    <p class="subtitle">设计开发报价方案</p>
-    <p class="desc">基于 8 个纪律与法规场景剧本，用户观看视频后进行选择，不同选择触发不同后续视频，以交互式方式完成学习。</p>
-  </header>
-
   <main>
-    <section id="flow">
-      <h2>交互逻辑</h2>
-      <div class="steps">
-        <div class="step">
-          <span class="step-num">1</span>
-          <div>
-            <strong>进入场景</strong>
-            <p>用户从 8 个场景中选择一个主题，如收受贿赂、数据造假、酒驾醉驾等。</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">2</span>
-          <div>
-            <strong>观看视频</strong>
-            <p>播放该场景的第一段短视频，结束后自动出现决策选项。</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">3</span>
-          <div>
-            <strong>做出选择</strong>
-            <p>用户选择"接受/拒绝""上报/隐瞒"等做法，系统进入对应分支。</p>
-          </div>
-        </div>
-        <div class="step">
-          <span class="step-num">4</span>
-          <div>
-            <strong>触发结局</strong>
-            <p>根据选择播放不同后续视频，最后展示结果、提示和正确做法。</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <h1>报价方案</h1>
 
-    <section id="pages">
-      <h2>页面结构</h2>
-      <div class="pages-grid">
-        <div class="page-item">
-          <strong>入口首页</strong>
-          <p>项目背景、学习目标和进入按钮。</p>
-        </div>
-        <div class="page-item">
-          <strong>场景目录页</strong>
-          <p>8 个场景卡片，点击进入互动剧情。</p>
-        </div>
-        <div class="page-item">
-          <strong>场景互动页</strong>
-          <p>播放视频，结束后弹出选择项，按选择进入不同分支。</p>
-        </div>
-        <div class="page-item">
-          <strong>结果总结页</strong>
-          <p>选择路径、得分、风险提示和推荐做法。</p>
-        </div>
-      </div>
-    </section>
+    <div class="cards">
+      <article class="card">
+        <header class="card-head">
+          <span class="label">经济方案</span>
+          <h2>体验版</h2>
+          <span class="price">¥15,000 – 18,000</span>
+        </header>
 
-    <section id="plans">
-      <h2>报价方案</h2>
-
-      <div class="plan">
-        <div class="plan-head">
-          <div>
-            <span class="plan-tag">经济方案</span>
-            <h3>体验版</h3>
-          </div>
-          <div class="plan-price">¥15,000 – 18,000</div>
-        </div>
-        <div class="plan-body">
-          <div class="plan-col">
+        <div class="card-body">
+          <section>
             <h4>设计风格</h4>
             <ul>
-              <li>企业标准色，简洁排版</li>
+              <li>采用企业标准色和简洁排版</li>
               <li>页面结构清晰，重点突出信息呈现</li>
               <li>场景卡片以基础图文形式呈现</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交互效果</h4>
             <ul>
-              <li>支持 8 个场景视频分段播放</li>
+              <li>支持 8 个场景的视频分段播放</li>
               <li>视频结束后弹出基础选择面板</li>
-              <li>选择后加载对应下一段视频</li>
-              <li>基础淡入淡出和按钮点击反馈</li>
+              <li>用户选择后加载对应下一段视频</li>
+              <li>使用基础淡入淡出和按钮点击反馈</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交付重点</h4>
             <ul>
               <li>满足完整演示需求</li>
               <li>适合预算有限、需要快速成型</li>
               <li>不包含复杂动画和高级视觉包装</li>
             </ul>
-          </div>
+          </section>
         </div>
-      </div>
 
-      <div class="plan">
-        <div class="plan-head">
-          <div>
-            <span class="plan-tag">推荐方案</span>
-            <h3>视觉版</h3>
-          </div>
-          <div class="plan-price">¥18,000 – 22,000</div>
+        <div class="card-video">
+          <video controls>
+            <source src="./videos/video1.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="plan-body">
-          <div class="plan-col">
+      </article>
+
+      <article class="card recommended">
+        <header class="card-head">
+          <span class="label">推荐方案</span>
+          <h2>视觉版</h2>
+          <span class="price">¥18,000 – 22,000</span>
+        </header>
+
+        <div class="card-body">
+          <section>
             <h4>设计风格</h4>
             <ul>
               <li>定制化视觉设计，整体更活泼</li>
               <li>融入插画、图标和品牌色块</li>
               <li>首页和场景目录页有更强层次感</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交互效果</h4>
             <ul>
               <li>支持视频分支播放和选择路径</li>
-              <li>弹窗柔和浮层和渐入动画</li>
-              <li>场景进度条和完成反馈</li>
-              <li>卡片 hover、按钮等微交互</li>
+              <li>弹窗加入柔和浮层和渐入动画</li>
+              <li>显示场景进度条和完成反馈</li>
+              <li>卡片 hover、按钮反馈、图标变化等微交互</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交付重点</h4>
             <ul>
               <li>视觉表现和互动体验更完整</li>
-              <li>适合客户汇报和员工培训演示</li>
+              <li>适合用于客户汇报和员工培训演示</li>
               <li>兼顾预算和最终呈现效果</li>
             </ul>
-          </div>
+          </section>
         </div>
-      </div>
 
-      <div class="plan">
-        <div class="plan-head">
-          <div>
-            <span class="plan-tag">高质方案</span>
-            <h3>精致版</h3>
-          </div>
-          <div class="plan-price">¥22,000 – 25,000</div>
+        <div class="card-video">
+          <video controls>
+            <source src="./videos/video2.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="plan-body">
-          <div class="plan-col">
+      </article>
+
+      <article class="card">
+        <header class="card-head">
+          <span class="label">高质方案</span>
+          <h2>精致版</h2>
+          <span class="price">¥22,000 – 25,000</span>
+        </header>
+
+        <div class="card-body">
+          <section>
             <h4>设计风格</h4>
             <ul>
-              <li>每个场景专属插画和动态元素</li>
-              <li>分镜式布局、横向滚动和沉浸式视觉</li>
-              <li>适合重要会议或展示场景</li>
+              <li>为每个场景设计专属插画和动态元素</li>
+              <li>采用分镜式布局、横向滚动和沉浸式视觉</li>
+              <li>整体更适合重要会议或展示场景</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交互效果</h4>
             <ul>
-              <li>高级视频分支和自定义选择弹窗</li>
-              <li>弹窗滑入、背景虚化、分镜式切换</li>
-              <li>拖拽排序、拖拽匹配等互动题型</li>
-              <li>积分、排行榜和结局总结</li>
+              <li>支持高级视频分支和自定义选择弹窗</li>
+              <li>弹窗滑入、背景虚化、分镜式视频切换</li>
+              <li>支持拖拽排序、拖拽匹配等互动题型</li>
+              <li>可展示积分、排行榜和结局总结</li>
             </ul>
-          </div>
-          <div class="plan-col">
+          </section>
+          <section>
             <h4>交付重点</h4>
             <ul>
               <li>强调沉浸感、细节感和品牌感</li>
-              <li>适合正式提案、内部展示或宣传演示</li>
+              <li>适合用于正式提案、内部展示或宣传演示</li>
               <li>在预算范围内提供最高完成度</li>
             </ul>
-          </div>
+          </section>
         </div>
-      </div>
-    </section>
+
+        <div class="card-video">
+          <video controls>
+            <source src="./videos/video3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+    </div>
   </main>
 </body>
 </html>
